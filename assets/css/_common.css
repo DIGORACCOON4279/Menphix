@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: var(--fontFamily);
+    /* overflow: hidden; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width:100%;
+    height:auto;
+}
+.container .destacados,
+.container .categorias,
+.container .recomendadas,
+.container .estrenos,
+.container .explora,
+.container .faqs{
+    width:100%;
+    height:auto;
+    margin: 250px auto;
+}
+

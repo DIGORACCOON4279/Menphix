@@ -1,0 +1,131 @@
+
+/* Container Elige el mejor plan */
+
+.container .plan{
+    width:85%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    gap:150px;
+}
+.container .plan .titleSection{
+    color: #8A2BE2;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .plan .blockPlan{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin:auto;
+    gap:40px;
+}
+.container .plan .blockPlan .cardsPlan{
+    width: 348px;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:60px;
+    margin:auto;
+    padding:40px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid #8A2BE2;
+    background: linear-gradient(180deg, rgba(51, 51, 51, 0.90) 2.5%, #333 36%, rgba(51, 51, 51, 0.72) 52%, #666 100%);
+    box-shadow: 4px 4px 25px 4px rgba(0, 0, 0, 0.50);
+}
+.container .plan .blockPlan .cardsPlan .titleCard{
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .plan .blockPlan .cardsPlan .info .boxInfo .subtitle{
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+}
+.container .plan .blockPlan .cardsPlan .info .boxInfo .paragraphInfo{
+    color: #D9D9D9;
+    font-family: var(--fontFamily);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left:20px;
+}
+.container .plan .blockPlan .cardsPlan .ctaInfo{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.container .plan .blockPlan .cardsPlan .ctaInfo .subtitle{
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .plan .blockPlan .cardsPlan .ctaInfo .subtitle .price{
+    color: #0F0;
+    font-family: var(--fontFamily);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .plan .blockPlan .cardsPlan .ctaInfo .paragraph{
+    color: #D9D9D9;
+    font-family: var(--fontFamily);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+.container .plan .blockPlan .cardsPlan .choosePlan{
+    display: flex;
+    width: 227px;
+    height: auto;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #8A2BE2;
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    transition:0.3s ease-in-out;
+}
+.container .plan .blockPlan .cardsPlan .choosePlan:hover{
+    background-color: #A56AE2;
+}
+
+.container .plan .blockPlan #specialCard{
+    border:1px solid #00ff00;
+    transform:scale(110%);
+}
+.container .plan .blockPlan #specialCard .titleCard{
+    color: #00ff00;
+    font-size: 35px;
+}

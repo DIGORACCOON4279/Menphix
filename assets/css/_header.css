@@ -1,0 +1,58 @@
+
+/* Header */
+
+.header {
+    width: 100%;
+    height: auto;
+    flex-shrink: 0;
+    background-color: black;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 99;
+}
+.header .bar{
+    width: 85%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 18px auto;
+}
+.header .bar .logIn{
+    display: flex;
+    width:max-content;
+    height: auto;
+    padding: 12px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #8A2BE2;
+    text-decoration: none;
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    overflow: hidden;
+    transition:0.3s ease-in-out;
+}
+.header .bar .logIn:hover{
+    background-color: #A56AE2;
+}
+.header .bar .isotipo{
+    text-decoration: none;
+    cursor: pointer
+}
+.header .bar .isotipo .logo{
+    width:130px;
+    height:auto;
+}
+.header .bar .isotipo .isotipoIcon{
+    width:40px;
+    height:auto;
+}

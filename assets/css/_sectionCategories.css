@@ -1,0 +1,62 @@
+
+/* Section Categories */
+
+.container .sectionCategories{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    overflow: hidden;
+}
+.container .sectionCategories .titleSection{
+    width: 85%;
+    color: #8A2BE2;
+    font-family: var(--fontFamily);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+    margin-top: 130px;
+}
+.container .sectionCategories .categories{
+    width: 85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    margin: 50px auto;
+}
+.container .sectionCategories .category{
+    width: 270px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+    border:2px solid #000000;
+    border-radius: 5px;
+    cursor:pointer;
+    background: linear-gradient(180deg, #000000 0%, #0e0e0e 50%, #141414 100%);
+    transform:scale(100%);
+    transition:transform 0.3s ease-in-out;
+}
+.container .sectionCategories .category:hover{
+    border:2px solid #8A2BE2;
+    transform:scale(102%);
+}
+.container .sectionCategories .category .titleCategories{
+    color: #D3D3D3;
+    font-family: var(--fontFamily);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+

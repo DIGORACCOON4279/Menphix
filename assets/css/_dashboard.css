@@ -1,0 +1,300 @@
+
+/* User Dashboard */
+
+/* Header */
+
+.header .bar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+
+}
+.header .bar div{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.header .bar .inicio{
+    width:40px;
+    cursor: pointer;
+    border-radius: 100%;
+    margin: 0%;
+    transition: filter 0.3s ease-in-out;
+}
+.header .bar .inicio:hover {
+    filter: brightness(0) saturate(100%) invert(26%) sepia(76%) saturate(1827%) hue-rotate(250deg) brightness(100%) contrast(98%);
+}
+
+/* Header NavSide */
+
+.header .menu{
+    width:20vw;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000000;
+    overflow: hidden;
+    position:absolute;
+    top:0;
+    left:0%;
+    transform:translate(-83%);
+    transition:transform 0.3s ease-in-out;
+}
+.header .menu div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 10px 20px 30px;
+}
+.header .menu:hover{
+    transform: translateX(0%);
+}
+.header .menu:hover > div .menuOpen {
+    transform: rotate(180deg);
+}
+.header .menu .topLogo .menuOpen{
+    width:32px;
+    cursor: pointer;
+    order: 2;
+}
+.header .menu .topLogo .isotipo{
+    order:1;
+    text-decoration: none;
+}
+.header .menu .topLogo .isotipo .logo{
+    width:130px;
+    height:auto;
+}
+.header .menu .topLogo .isotipo .isotipoIcon{
+    width:40px;
+    height:auto;
+}
+.header .menu .imgUser{
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: #0f0f0f;
+    padding:0px 0px 0px 30px;
+}
+.header .menu .imgUser .user{
+    width:40px;
+    display: flex;
+    align-self: center;
+    border-radius: 50%;
+}
+.header .menu .imgUser .data{
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:5px;
+}
+.header .menu .imgUser .data .name{
+    font-size: 12px;
+    font-family: var(--fontFamily);
+    font-weight: 600;
+    color:#2be249;
+}
+.header .menu .imgUser .data .email{
+    font-size: 10px;
+    font-family: var(--fontFamily);
+    font-weight: 600;
+    color:#8A2BE2;
+}
+.header .menu .navSide{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 40px auto 0px;
+    gap:40px;
+}
+.header .menu .navSide ul{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.header .menu .navSide ul li{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.header .menu .navSide ul li a{
+    width:100%;
+    height:auto;
+    text-decoration:none;
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap:40px;
+    font-size: 14px;
+    font-family: var(--fontFamily);
+    font-weight: 600;
+    color:#d3d3d3;
+    transition:0.3s ease-in-out;
+}
+.header .menu .navSide ul li a:hover{
+    background-color: #0f0f0f;
+}
+.header .menu .navSide ul li a img{
+    width:24px;
+    height:auto;
+    order: 1;
+}
+
+/* Container User Dashboard*/
+
+.container .heroSectionUser{
+    width:100%;
+    height:100vh;
+    background-image: url("../../img/backgroundEstrenos.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.container .heroSectionUser .titles{
+    width:85%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    margin: 120px auto;
+    text-align: left;
+    display: flex;
+    align-items: flex-end;
+}
+.container .heroSectionUser .titles .title{
+    width: 40%;
+    color: #D3D3D3;
+    font-family: var(--fontFamily);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transform:translate(0%);
+}
+.container .heroSectionUser .titles .title:first-child{
+
+    animation:titleUno 0.5s linear;
+}
+@keyframes titleUno{
+    0%{
+        transform:translate(130%);
+        opacity: 0;
+    }
+    100%{
+        transform:translate(0%);
+        opacity: 1;
+    }
+}
+.container .heroSectionUser .titles .title:last-child{
+    animation:titleDos 0.7s linear;
+}
+@keyframes titleDos{
+    0%{
+        transform:translate(130%);
+        opacity: 0;
+    }
+    100%{
+        transform:translate(0%);
+        opacity: 1;
+    }
+}
+.container .blockSlider{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:20px;
+    margin: 10px auto;
+    overflow: hidden;
+    position: absolute;
+    bottom:0%;
+    left:0%;
+}
+.container .blockSlider .comingSoon{
+    width:85%;
+    color: #8A2BE2;
+    font-family: var(--fontFamily);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: right;
+    margin:0px auto;
+}
+.container .blockSlider .sliderEstrenos{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap:20px;
+    animation: sliderMovies 180s linear infinite;
+}
+@keyframes sliderMovies{
+    0%{
+        transform:translateX(0%);
+    }
+    25%{
+        transform:translateX(50%);
+    }
+    50%{
+        transform:translateX(160%);
+    }
+    75%{
+        transform:translateX(50%);
+    }
+    100%{
+        transform:translateX(0%);
+    }
+}
+.container .blockSlider .sliderEstrenos .slider{
+    border-radius: 5px;
+    object-fit: cover;
+    filter: brightness(30%);
+    cursor:pointer;
+    margin:25px auto;
+    transform:scale(100%);
+    transition: transform 0.3s ease-in-out;
+}
+.container .blockSlider .sliderEstrenos .slider:hover{
+    filter: brightness(90%);
+    transform:scale(105%);
+}
+/* .container .blockSlider .arrows{
+    width:85%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+.container .blockSlider .arrows .arrowSlider{
+    width:40px;
+} */
+

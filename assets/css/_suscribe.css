@@ -1,0 +1,106 @@
+
+/* Suscribe*/
+
+.container .heroSectionSuscribe{
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto 0px;
+}
+.container .heroSectionSuscribe .form{
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.80);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 60px;
+}
+.container .heroSectionSuscribe .form .suscribete{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 40px;
+}
+.container .heroSectionSuscribe .form .input #name,
+.container .heroSectionSuscribe .form .input #email,
+.container .heroSectionSuscribe .form .input #password{
+    width:300px;
+    color: #D3D3D3;
+    font-family: var(--font-family);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 15px 25px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #333333;
+    border:1px solid #999999;
+}
+.container .heroSectionSuscribe .form .cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 40px auto 0px;
+}
+.container .heroSectionSuscribe .form .cta .ctaSuscribir{
+    width: 300px;
+    height: auto;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    background-color: #8A2BE2;
+    border: 1px solid #8A2BE2;
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    transition:0.3s ease-in-out;
+}
+.container .heroSectionSuscribe .form .cta .ctaSuscribir:hover{
+    background-color: #A56AE2;
+    border: 1px solid #A56AE2;
+}
+.container .heroSectionSuscribe .form .cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.container .heroSectionSuscribe .form .cta div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    font-family: var(--font-family);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .heroSectionSuscribe .form .cta div .toLogIn{
+    text-decoration: none;
+    color: #8A2BE2;
+    transition:0.3s ease-in-out;
+}
+.container .heroSectionSuscribe .form div .toLogIn:hover{
+    color: #A56AE2;
+    text-decoration: underline;
+}

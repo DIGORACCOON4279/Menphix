@@ -1,0 +1,108 @@
+
+/* Categorias Recomendadas */
+
+.container .recomendadas{
+    width:100%;
+    height: auto;
+    background-image: url("../../img/backgroundRecomendadas.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .recomendadas .blockRecomendadas{
+    width:85%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:50px;
+}
+.container .recomendadas .blockRecomendadas .imgRecomendadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+    transform:translateY(-80px);
+}
+.container .recomendadas .blockRecomendadas .imgRecomendadas .picsRecomendadas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+}
+.container .recomendadas .blockRecomendadas .imgRecomendadas .picsRecomendadas .cardsRecomendadas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+.container .recomendadas .blockRecomendadas .imgRecomendadas .picsRecomendadas .cardsRecomendadas .cards{
+    border-radius: 5px;
+    background: lightgray 50% / cover no-repeat;
+    box-shadow: 4px 4px 25px 4px rgba(0, 0, 0, 0.55);
+}
+.container .recomendadas .blockRecomendadas .imgRecomendadas .picsRecomendadas .ranking{
+    width:20%;
+}
+.container .recomendadas .blockRecomendadas .imgRecomendadas .paragraph{
+    color: #999999;
+    text-align: center;
+    font-family: var(--fontFamily);
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .recomendadas .blockRecomendadas .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+}
+.container .recomendadas .blockRecomendadas .info .titleSection{
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .recomendadas .blockRecomendadas .info .infoParagraph{
+    color: #D3D3D3;
+    font-family: var(--fontFamily);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.container .recomendadas .blockRecomendadas .info .ctaRecomendadas{
+    display: flex;
+    width: 301px;
+    height: auto;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background-color: #8A2BE2;
+    color: #FFF;
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    transition:0.3s ease-in-out;
+}
+.container .recomendadas .blockRecomendadas .info .ctaRecomendadas:hover{
+    background-color: #A56AE2;
+}

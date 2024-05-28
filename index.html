@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Menphix</title>
+    <!-- Favicon -->
+    <link rel="icon" href="./img/isotipo.svg"  sizes="16x16"/>
+    <link rel="icon" href="./img/isotipo.svg" sizes="32x32"/>
+    <link rel="icon" href="./img/isotipo.svg" sizes="64x64"/>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/app.css">
+    <!-- Google Fonts Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+
+    <header class="header" id="header">
+        <div class="bar">
+            <a href="#" class="isotipo">
+                <img src="./img/isotipo.svg" alt="" class="isotipoIcon">
+                <img src="./img/logo.svg" alt="" class="logo">
+            </a>
+            <a href="./views/logIn.html" class="logIn">Iniciar Sesión</a>
+        </div>
+    </header>
+
+    <main class="container">
+
+
+        <!-- Hero Section -->
+
+        <section class="heroSection">
+            <div class="info">
+                <h1 class="mainTitle">"Descubre un mundo de entretenimiento ilimitado".</h1>
+                <h3 class="infoSubtitle">"Empieza a explorar sin compromiso desde hoy mismo".</h3>
+            </div>
+            <a href="./views/suscribe.html" class="ctaBegin">Suscribirse</a>
+        </section>
+
+        <!-- Destacados -->
+
+        <section class="destacados">
+            <div class="blockDestacados">
+                <section class="imgDestacados">
+                    <img class="cellDestacados" src="img/cellDestacados.webp" alt="">
+                    <div class="cardsDestacados">
+                        <img src="./img/picDestacadosUno.webp" alt="" class="itemDestacados">
+                        <img src="./img/picDestacadosDos.webp" alt="" class="itemDestacados">
+                        <img src="./img/picDestacadosTres.webp" alt="" class="itemDestacados">
+                        <img src="./img/picDestacadosCuatro.webp" alt="" class="itemDestacados">
+                    </div>
+                </section>
+                <section class="info">
+                    <h2 class="titleSection">Destacados</h2>
+                    <p class="infoParagraph">"Descubre lo más popular en nuestra plataforma esta semana."</p>
+                    <p class="infoParagraph"> "No te pierdas nuestras películas y series más destacadas."</p>
+                </section>
+            </div>
+        </section>
+
+        <!-- Elige tu mejor plan -->
+
+        <section  class="plan">
+            <h2 class="titleSection">Elegir el mejor plan</h2>
+            <div class="blockPlan">
+                <section class="cardsPlan">
+                    <h3 class="titleCard">Básico</h3>
+                    <div class="info">
+                        <div class="boxInfo">
+                            <h4 class="subtitle">Contenido</h4>
+                            <div class="paragraphInfo">
+                                <p class="paragraph"> ✔ Acceso ilimitado a una selección de películas y series populares.</p>
+                                <p class="paragraph"> ✔ Transmisión en calidad estándar.</p>
+                                <p class="paragraph"> ✔ Una pantalla a la vez.</p>
+                                <p class="paragraph"> ✔ Acceso desde cualquier dispositivo compatible.</p>
+                            </div>
+                        </div>
+                        <div class="boxInfo">
+                            <h4 class="subtitle">Extras</h4>
+                            <div class="paragraphInfo">
+                                <p class="paragraph"> ✔ Sin anuncios.</p>
+                                <p class="paragraph"> ✔ Descarga de contenido para ver sin conexión.</p>
+                                <p class="paragraph"> ✔ Soporte al cliente por correo electrónico.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ctaInfo">
+                        <h2 class="subtitle">Precio: <span class="price">$9,99</span>/mes</h2>
+                        <p class="paragraph">Precio total anual $119,88</p>
+                    </div>
+                    <a href="#" class="choosePlan">Elegir plan</a>
+                </section>
+
+                <section class="cardsPlan" id="specialCard">
+                    <h3 class="titleCard">Golden</h3>
+                    <div class="info">
+                        <div class="boxInfo">
+                            <h4 class="subtitle">Contenido</h4>
+                            <div class="paragraphInfo">
+                                <p class="paragraph">✔ Todo lo incluido en el Plan Platino.</p>
+                                <p class="paragraph">✔ Acceso a contenido premium en calidad 4K Ultra HD.</p>
+                                <p class="paragraph">✔ Cuatro pantallas simultáneas.</p>
+                                <p class="paragraph">✔ Acceso a bibliotecas de contenido exclusivas.</p>
+                            </div>
+                        </div>
+                        <div class="boxInfo">
+                            <h4 class="subtitle">Extras</h4>
+                            <div class="paragraphInfo">
+                                <p class="paragraph">✔ Descarga de contenido en calidad 4K Ultra HD.</p>
+                                <p class="paragraph">✔ Invitaciones a eventos exclusivos y preestrenos.</p>
+                                <p class="paragraph">✔ Soporte al cliente 24/7 por correo electrónico, chat en vivo y teléfono.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ctaInfo">
+                        <h2 class="subtitle">Precio: <span class="price">$19,99</span>/mes</h2>
+                        <p class="paragraph">Precio total anual $239,88</p>
+                    </div>
+                    <a href="#" class="choosePlan" id="specialChoosePlan"">Elegir plan</a>
+                </section>
+
+                <section class="cardsPlan">
+                    <h3 class="titleCard">Platino</h3>
+                    <div class="info">
+                        <div class="boxInfo">
+                            <h4 class="subtitle">Contenido</h4>
+                            <div class="paragraphInfo">
+                                <p class="paragraph">✔ Todo lo incluido en el Plan Básico</p>
+                                <p class="paragraph">✔ Acceso a contenido exclusivo y estrenos anticipados.</p>
+                                <p class="paragraph">✔ Transmisión en calidad HD.</p>
+                                <p class="paragraph">✔ Dos pantallas simultáneas.</p>
+                            </div>
+                        </div>
+                        <div class="boxInfo">
+                            <h4 class="subtitle">Extras</h4>
+                            <div class="paragraphInfo">
+                                <p class="paragraph">✔ Descarga de contenido en calidad HD.</p>
+                                <p class="paragraph">✔ Acceso a eventos en vivo y contenido interactivo.</p>
+                                <p class="paragraph">✔ Soporte al cliente prioritario por correo electrónico y chat en vivo.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ctaInfo">
+                        <h2 class="subtitle">Precio: <span class="price">$14,99</span>/mes</h2>
+                        <p class="paragraph">Precio total anual $179,88</p>
+                    </div>
+                    <a href="#" class="choosePlan">Elegir plan</a>
+                </section>
+            </div>
+        </section>
+
+        <!-- Categorias -->
+
+        <section  class="categorias">
+            <div class="blockCategorias">
+                <section class="blockInfo">
+                    <h2 class="titleSection">Categorias</h2>
+                    <p class="info">"Explora películas por género y encuentra algo para cada estado de ánimo."</p>
+                    <p class="info">"Navega por nuestras categorías y encuentra tu próxima película favorita."</p>
+                </section>
+                <section class="slider">
+                    <div class="carousel">
+                        <img src="./img/picCategoriaUno.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaDos.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaTres.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaCuatro.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaCinco.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaSeis.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaSiete.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaOcho.webp" alt="" class="pic">
+                    </div>
+                    <div class="carousel">
+                        <img src="./img/picCategoriaNueve.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaDiez.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaOnce.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaDoce.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaTrece.we.bp" alt="" class="pic">
+                        <img src="./img/picCategoriaCatorce.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaQuince.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaDiezySeis.webp" alt="" class="pic">
+                    </div>
+                    <div class="carousel">
+                        <img src="./img/picCategoriaDiezySiete.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaDiezyOcho.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaDiezyNueve.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaVeinte.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaVeintiUno.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaVeintiDos.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaVeintiTres.webp" alt="" class="pic">
+                        <img src="./img/picCategoriaVeintiCuatro.webp" alt="" class="pic">
+                    </div>
+                </section>
+            </div>
+        </section>
+
+        <!-- Recomendados -->
+
+        <section  class="recomendadas">
+            <section class="blockRecomendadas">
+                <div class="imgRecomendadas">
+                    <section class="picsRecomendadas">
+                        <div class="cardsRecomendadas">
+                            <img src="./img/picRecomendadaUno.webp" alt="" class="cards">
+                            <img src="./img/picRecomendadaDos.webp" alt="" class="cards">
+                            <img src="./img/picRecomendadaTres.webp" alt="" class="cards">
+                        </div>
+                        <img src="./img/ranking.svg" alt="" class="ranking">
+                    </section>
+                    <p class="paragraph">"Descubre nuevas películas que te encantarán,
+                        seleccionadas solo para ti."
+                    </p>
+                </div>
+                <div class="info">
+                    <h2 class="titleSection">Recomendadas</h2>
+                    <p class="infoParagraph">"Recomendaciones personalizadas solo para ti,
+                        basadas en tus gustos."
+                    </p>
+                    <a href="#" class="ctaRecomendadas">Deseo mi plan</a>
+                </div>
+            </section>
+        </section>
+
+        <!-- Estrenos -->
+
+        <section  class="estrenos">
+            <div class="blockEstrenos">
+                <section class="blockInfo">
+                    <h2 class="titleSection">Estrenos</h2>
+                    <p class="paragraph">"Mantente al día con nuestras últimas adiciones a la biblioteca."</p>
+                    <p class="paragraph">"Descubre las últimas películas añadidas a nuestra plataforma."</p>
+                </section>
+                <img src="./img/tabletEstrenos.webp" alt="" class="estrenosTablet">
+            </div>
+        </section>
+
+        <!-- Explora -->
+
+        <section  class="explora">
+            <section class="blockExplora">
+                <img src="./img/exploraDevices.webp" alt="" class="devices">
+                <div class="info">
+                    <h2 class="titleSection">Explora</h2>
+                    <p class="infoParagraph">"Disfruta de películas y series en
+                        cualquier dispositivo, en casa o en movimiento. Regístrate
+                        ahora para acceder desde tu teléfono, tableta o computadora.
+                        ¡Únete y disfruta de tu entretenimiento favorito en cualquier
+                        lugar!"
+                    </p>
+                </div>
+            </section>
+        </section>
+
+        <!-- FAQ´s -->
+
+        <section  class="faqs">
+            <div class="blockFaqs">
+                <h2 class="titleSection">Preguntas frecuentes</h2>
+                <div class="accordion">
+                    <details class="details">
+                        <summary class="summary">
+                            ¿Cómo puedo suscribirme a la plataforma de streaming?
+                            <img src="./img/plus.svg" alt="" class="plus">
+                        </summary>
+                        <p>Puedes suscribirte a nuestra plataforma de streaming haciendo clic en
+                            el botón "Suscríbete" en la página de inicio. Luego, sigue las instrucciones
+                            para completar el proceso de registro y elige el plan de suscripción que mejor
+                            se adapte a tus necesidades.
+                        </p>
+                    </details>
+                    <details class="details">
+                        <summary class="summary">
+                            ¿Cuáles son las categorías de contenido disponibles?
+                            <img src="./img/plus.svg" alt="" class="plus">
+                        </summary>
+                        <p>Tenemos una amplia variedad de categorías de contenido, que incluyen
+                            acción, comedia, drama, ciencia ficción, documentales, entre otros.
+                            Puedes explorar estas categorías en la sección de "Explorar" de nuestra
+                            webapp.
+                        </p>
+                    </details>
+                    <details class="details">
+                        <summary class="summary">
+                            ¿Puedo ver contenido en diferentes dispositivos?
+                            <img src="./img/plus.svg" alt="" class="plus">
+                        </summary>
+                        <p>Sí, puedes ver nuestro contenido en una variedad de dispositivos, como
+                            teléfonos inteligentes, tabletas, computadoras portátiles, televisores
+                            inteligentes y consolas de videojuegos. Solo necesitas iniciar sesión en
+                            tu cuenta desde el dispositivo que prefieras.
+                        </p>
+                    </details>
+                    <details class="details">
+                        <summary class="summary">
+                            ¿Se pueden descargar películas o series para verlas sin conexión?
+                            <img src="./img/plus.svg" alt="" class="plus">
+                        </summary>
+                        <p>Sí, algunos de nuestros títulos están disponibles para descarga.
+                            Esto te permite ver contenido sin conexión a internet en tus dispositivos
+                            móviles mientras viajas o estás fuera de casa. Busca el ícono de descarga e
+                            n la página de detalles del título para ver si está disponible para descargar.
+                        </p>
+                    </details>
+                    <details class="details">
+                        <summary class="summary">
+                            ¿Hay alguna restricción geográfica para acceder al contenido?
+                            <img src="./img/plus.svg" alt="" class="plus">
+                        </summary>
+                        <p>Algunos contenidos pueden estar sujetos a restricciones geográficas debido
+                            a acuerdos de licencia. Sin embargo, hacemos todo lo posible para ofrecer
+                            la mayor cantidad de contenido posible en todas las regiones. Si tienes
+                            alguna pregunta específica sobre la disponibilidad de cierto contenido en
+                            tu área, no dudes en contactarnos.
+                        </p>
+                    </details>
+                    <details class="details">
+                        <summary class="summary">
+                            ¿Cómo puedo cancelar mi suscripción a la plataforma?
+                            <img src="./img/plus.svg" alt="" class="plus">
+                        </summary>
+                        <p>Puedes cancelar tu suscripción en cualquier momento desde la página
+                            de configuración de tu cuenta. Solo ve a la sección de "Suscripción"
+                            y sigue las instrucciones para cancelar. Ten en cuenta que seguirás
+                            teniendo acceso al servicio hasta el final de tu período de facturación actual.
+                        </p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="footer">
+        <div class="blockFooter">
+            <section class="nav">
+                <ul>
+                    <li><a href="" class="item">Contactanos</a></li>
+                    <li><a href="" class="item">Centro de ayudas</a></li>
+                    <li><a href="" class="item">Trabaja con nosotros</a></li>
+                    <li><a href="" class="item">Gift cards</a></li>
+                </ul>
+            </section>
+            <section class="nav">
+                <ul>
+                    <li><a href="#" class="item">Tu cuenta</a></li>
+                    <li><a href="#" class="item">Planes</a></li>
+                    <li><a href="#" class="item">Asesores</a></li>
+                    <li><a href="#" class="item">Inclusión</a></li>
+                </ul>
+            </section>
+            <section class="nav">
+                <ul>
+                    <li><a href="#" class="item">FAQ´s</a></li>
+                    <li><a href="#" class="item">Menphix</a></li>
+                    <li><a href="#" class="item">Ubicaciones</a></li>
+                    <li><a href="#" class="item">Terminos y condiciones</a></li>
+                </ul>
+            </section>
+            <section class="socialMedia">
+                <p class="contactUs">Contactanos en</p>
+                <div class="socialIcon">
+                    <a class="item" href="https://facebook.com" target="_blank"><img src="./img/facebook.svg" alt="" class="iconMedia"></a>
+                    <a class="item" href="https://youtube.com" target="_blank"><img src="./img/youtube.svg" alt="" class="iconMedia"></a>
+                    <a class="item" href="https://instagram.com" target="_blank"><img src="./img/instagram.svg" alt="" class="iconMedia"></a>
+                </div>
+            </section>
+        </div>
+
+        <div class="developer">
+            <p class="description">Desarrollo con 🧡 por Diego Marín | Colombia - Canada | 2024 </p>
+        </div>
+    </footer>
+
+</body>
+</html>

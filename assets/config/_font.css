@@ -1,0 +1,8 @@
+:root{
+    --fontStyle: normal;
+    --fontFamily: "Lato", sans-serif;
+    --fontWeightLight: 300;
+    --fontWeightRegular: 400;
+    --fontWeightBold: 700;
+    --fontWeightLight: 900;
+}

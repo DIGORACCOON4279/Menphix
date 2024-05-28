@@ -1,0 +1,84 @@
+
+/* Container FAQ's*/
+
+.container .faqs{
+    width:100%;
+    height:auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .faqs .blockFaqs{
+    width:85%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin:auto;
+    gap:50px;
+}
+.container .faqs .blockFaqs .titleSection{
+    color: #8A2BE2;
+    font-family: var(--fontFamily);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    align-self: center;
+}
+.container .faqs .blockFaqs .accordion{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:5px;
+}
+.container .faqs .blockFaqs .accordion .details{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container .faqs .blockFaqs .accordion .details .summary{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #333333;
+    padding:30px;
+    color: #999999;
+    font-family: var(--fontFamily);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom:5px;
+    cursor: pointer;
+    transition:0.3s ease-in-out;
+}
+.container .faqs .blockFaqs .accordion .details .summary:hover{
+    background-color: #333333c7;
+}
+.container .faqs .blockFaqs .accordion .details p{
+    color: #d3d3d3;
+    font-family: var(--fontFamily);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    padding:30px;
+    border:1px solid #666666;
+}
