@@ -2,25 +2,30 @@
 /* Log In */
 
 .container .heroSectionLogIn{
+    width: 100%;
+    height: auto;
+    margin: 60px auto;
+}
+.container .heroSectionLogIn .containerForm{
     width: 85%;
+    max-width: 1200px;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px auto 0px;
 }
-.container .heroSectionLogIn .form{
+.container .heroSectionLogIn .containerForm .form{
     width: auto;
     height: auto;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.80);
+    background-color: #000000cc;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 50px 60px;
 }
-.container .heroSectionLogIn .form .iniciarSesion{
+.container .heroSectionLogIn .containerForm .form .iniciarSesion{
     color: #FFF;
     font-family: var(--font-family);
     font-size: 30px;
@@ -29,8 +34,8 @@
     line-height: normal;
     margin-bottom: 40px;
 }
-.container .heroSectionLogIn .form .input #email,
-.container .heroSectionLogIn .form .input #password{
+.container .heroSectionLogIn .containerForm .form .input #email,
+.container .heroSectionLogIn .containerForm .form .input #password{
     width:300px;
     color: #D3D3D3;
     font-family: var(--font-family);
@@ -44,14 +49,14 @@
     background-color: #333333;
     border:1px solid #999999;
 }
-.container .heroSectionLogIn .form .cta{
+.container .heroSectionLogIn .containerForm .form .cta{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 60px auto 0px;
 }
-.container .heroSectionLogIn .form .cta .ctaIniciarSesion{
+.container .heroSectionLogIn .containerForm .form .cta .ctaIniciarSesion{
     width: 300px;
     height: auto;
     padding: 15px 30px;
@@ -70,18 +75,18 @@
     line-height: normal;
     transition:0.3s ease-in-out;
 }
-.container .heroSectionLogIn .form .cta .ctaIniciarSesion:hover{
+.container .heroSectionLogIn .containerForm .form .cta .ctaIniciarSesion:hover{
     background-color: #A56AE2;
     border: 1px solid #A56AE2;
 }
-.container .heroSectionLogIn .form .cta{
+.container .heroSectionLogIn .containerForm .form .cta{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 10px;
 }
-.container .heroSectionLogIn .form .cta div{
+.container .heroSectionLogIn .containerForm .form .cta div{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -94,12 +99,12 @@
     font-weight: 600;
     line-height: normal;
 }
-.container .heroSectionLogIn .form .cta div .toSuscribe{
+.container .heroSectionLogIn .containerForm .form .cta div .toSuscribe{
     text-decoration: none;
     color: #8A2BE2;
     transition:0.3s ease-in-out;
 }
-.container .heroSectionLogIn .form .cta div .toSuscribe:hover{
+.container .heroSectionLogIn .containerForm .form .cta div .toSuscribe:hover{
     color: #A56AE2;
     text-decoration: underline;
 }

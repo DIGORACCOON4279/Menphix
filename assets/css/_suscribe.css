@@ -7,7 +7,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px auto 0px;
+    margin: 60px auto;
+}
+.container .heroSectionSuscribe .containerSuscribe{
+    width: 85%;
+    max-width: 1200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .container .heroSectionSuscribe .form{
     width: auto;

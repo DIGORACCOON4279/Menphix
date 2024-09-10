@@ -15,6 +15,7 @@
 }
 .container .explora .blockExplora{
     width:85%;
+    max-width: 1200px;
     height:auto;
     display: flex;
     flex-direction: row;

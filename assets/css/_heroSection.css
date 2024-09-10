@@ -3,22 +3,27 @@
 
 .container .heroSection{
     width:100%;
-    height:100vh;
+    height:100vh; height:100vh;
     background-image: url("../../img/imgHero.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    display: flex;
+    overflow: hidden;
+}
+.container .heroSection .mainCenter{
+    width:85vw;
+    max-width: 1200px;
+    height:100vh;    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    overflow: hidden;
+    margin:auto;
 }
 
 /* Hero Section Landing */
 
-.container .heroSection .info{
+.container .heroSection .mainCenter .info{
     width: 80%;
     display: flex;
     flex-direction: column;
@@ -26,7 +31,7 @@
     align-items: center;
     gap:5px;
 }
-.container .heroSection .info .mainTitle{
+.container .heroSection .mainCenter .info .mainTitle{
     color: #FFF;
     text-align: center;
     font-family: var(--fontFamily);
@@ -46,7 +51,7 @@
         transform:translateY(0%) scale(100%);
     }
 }
-.container .heroSection .info .infoSubtitle{
+.container .heroSection .mainCenter .info .infoSubtitle{
     color: #D3D3D3;
     font-family: Lato;
     font-size: 25px;
@@ -65,7 +70,7 @@
         transform:translateY(0%) scale(100%);
     }
 }
-.container .heroSection .ctaBegin{
+.container .heroSection .mainCenter .ctaBegin{
     color: #FFF;
     font-family: var(--fontFamily);
     font-size: 25px;
@@ -85,7 +90,7 @@
     animation: clipPath 1.5s linear;
     transition: 0.3s ease-in-out;
 }
-.container .heroSection .ctaBegin:hover{
+.container .heroSection .mainCenter .ctaBegin:hover{
     background-color: #A56AE2;
 }
 
