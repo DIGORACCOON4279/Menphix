@@ -36,32 +36,61 @@
     text-decoration: underline;
 }
 .footer .blockFooter .socialMedia{
+    height:100%;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:50px;
+}
+.footer .blockFooter .socialMedia .socialNetwork{
     display:flex;
     flex-direction: column;
-    gap:10px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:5px;
 }
-.footer .blockFooter .socialMedia .contactUs{
+.footer .blockFooter .socialMedia .socialNetwork .contactUs{
     text-decoration: none;
     color: #666666;
     font-size: 13px;
     font-weight: 600;
     line-height: normal;
+    border-bottom:1px solid #333333;
+    padding-bottom:5px;
 }
-.footer .blockFooter .socialMedia .socialIcon{
+.footer .blockFooter .socialMedia .socialNetwork .socialIcon{
+    width:100%;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
     align-items:flex-start;
-    gap:5px;
-    padding-top:5px;
-    border-top:1px solid #333333;
 }
-.footer .blockFooter .socialMedia .socialIcon .item .iconMedia{
+.footer .blockFooter .socialMedia .socialNetwork .socialIcon .item .iconMedia{
     width:24px;
     transition: filter 0.3s ease-in-out;
 }
-.footer .blockFooter .socialMedia .socialIcon .item .iconMedia:hover{
+.footer .blockFooter .socialMedia .socialNetwork .socialIcon .item .iconMedia:hover{
     filter: brightness(0) saturate(100%) invert(26%) sepia(76%) saturate(1827%) hue-rotate(250deg) brightness(100%) contrast(98%);
+}
+.footer .blockFooter .socialMedia .isotipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:0px;
+    align-items: center;
+    text-decoration: none;
+    cursor: pointer
+}
+.footer .blockFooter .socialMedia a.isotipo .logo{
+    width:130px;
+    height:auto;
+}
+.footer .blockFooter .socialMedia a.isotipo img#isotipoIcon{
+    width:24px;
+    height:auto;
+    border-radius: 50%;
+    border:1px solid #7625c1;
 }
 .footer .developer{
     display: flex;
@@ -75,3 +104,4 @@
     line-height: normal;
     margin:10px auto;
 }
+
