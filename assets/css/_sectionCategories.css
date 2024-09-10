@@ -3,6 +3,12 @@
 
 .container .sectionCategories{
     width: 100%;
+    height: 100vh;
+    margin:auto;
+}
+.container .sectionCategories .containerCategories{
+    width: 85%;
+    max-width: 1200px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -12,7 +18,7 @@
     overflow: hidden;
 }
 .container .sectionCategories .titleSection{
-    width: 85%;
+    width: 100%;
     color: #8A2BE2;
     font-family: var(--fontFamily);
     font-size: 30px;
@@ -20,10 +26,10 @@
     font-weight: 600;
     line-height: normal;
     text-align: center;
-    margin-top: 130px;
+    margin-top: 100px;
 }
 .container .sectionCategories .categories{
-    width: 85%;
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
