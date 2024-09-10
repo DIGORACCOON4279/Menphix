@@ -118,7 +118,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin: 40px auto 0px;
+    margin: auto;
     gap:40px;
 }
 .header .menu .navSide ul{
