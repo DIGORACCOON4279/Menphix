@@ -46,14 +46,21 @@
     background-color: #A56AE2;
 }
 .header .bar .isotipo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:0px;
+    align-items: center;
     text-decoration: none;
     cursor: pointer
 }
-.header .bar .isotipo .logo{
+.header .bar a.isotipo .logo{
     width:130px;
     height:auto;
 }
-.header .bar .isotipo .isotipoIcon{
-    width:40px;
+.header .bar a.isotipo img#isotipoIcon{
+    width:24px;
     height:auto;
+    border-radius: 50%;
+    border:1px solid #7625c1;
 }
